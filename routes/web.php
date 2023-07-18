@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('admin.layouts.layout');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
+
+Route::get('/home', function () {
+    return view('client.layouts.layout');
+});
+
+
+
+
