@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     return view('welcome');
 });
+=======
+=======
+>>>>>>> Stashed changes
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/home', function () {
+    return view('client.layouts.layout');
+})->name('home');
+
+
+
+
+>>>>>>> Stashed changes
